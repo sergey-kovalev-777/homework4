@@ -22,9 +22,7 @@ public class Main {
         if (temperature <=5) {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         }
-        if (temperature >5) {
-            System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
-        }
+        else  { System.out.println("На улице " + temperature + " градусов, можно идти без шапки"); }
 
             System.out.println("\nЗадача 3");
 
@@ -42,7 +40,7 @@ public class Main {
         else if (ageLife >=18 && ageLife <=24) { System.out.println("Если возраст человека равен "+ageLife+", то ему нужно ходить в университет"); }
         else { System.out.println("Если возраст человека равен "+ageLife+", то ему нужно ходить на работу"); }
 
-    // не особо понял, почему последнее else зереботало без условия в скобках, изначально задавал больше 24, результат этого чисто перебор написания
+
 
         System.out.println("\nЗадача 5");
 
@@ -72,6 +70,5 @@ public class Main {
         else if (two > one && two > three) { System.out.println("Второе число самое большое"); }
         else { System.out.println("Третье число самое большое"); }
 
-        //этот ответ я нашел с помощью Германа)) вот и думаю, а как тогда быть с большим количеством сравниваемых?....
-    }
+         }
 }
